@@ -23,20 +23,15 @@ and digestible video from Khan Academy.
 
 ## Use It
 
-```sh
+Tried to get a one-liner working here, but couldn't figure out how to download the ICNS directly from GitHub with cURL. So...
 
-# Crack open the app
-cd /Applications/Atom.app/Contents/Resources
+- Quit Atom
+- Download [atom.icns](https://github.com/zeke/atom-icon/blob/master/atom.icns?raw=true)
+- Overwrite /Applications/Atom.app/Contents/Resources/atom.icns
 
-# Back up the old one
-mv atom.icns atom-old.icns
+Atom may cache the old icon, in which case you'll have to restart to see the new one.
 
-# Download the new one
-curl -O https://github.com/zeke/atom-icon/raw/master/atom.icns
-
-# Fire up Atom
-atom
-```
+Pull requests welcome!
 
 ## Build It
 
