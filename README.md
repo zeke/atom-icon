@@ -23,7 +23,20 @@ and digestible video from Khan Academy.
 
 ## Use It
 
-https://github.com/zeke/atom-icon
+```sh
+
+# Crack open the app
+cd /Applications/Atom.app/Contents/Resources
+
+# Back up the old one
+mv atom.icns atom-old.icns
+
+# Download the new one
+curl -O https://github.com/zeke/atom-icon/raw/master/atom.icns
+
+# Fire up Atom
+atom
+```
 
 ## Build It
 
