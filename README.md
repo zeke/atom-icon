@@ -1,4 +1,4 @@
-# Atom Logo
+# An alternative icon for Atom.app
 
 [Atom](http://atom.io/) is a hackable text editor for the 21st Century. It's
 the greatest thing since sliced bread, but its logo perpetuates a stereotypical
