@@ -15,9 +15,11 @@ For more info about atoms (the particle, not the editor), I recommend watching
 [Introduction to the atom](https://www.khanacademy.org/science/chemistry/introduction-to-the-atom/v/introduction-to-the-atom)
 , a fascinating and newb-friendly video from Khan Academy.
 
-## The Old One
+## The Old Ones
 
-![](atom-old.png)
+![](old-icon/1.png)
+
+![](old-icon/2.png)
 
 ## The New One
 
