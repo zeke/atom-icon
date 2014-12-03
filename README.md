@@ -27,15 +27,11 @@ For more info about atoms (the particle, not the editor), I recommend watching
 
 ## Use It
 
-I tried to get a one-liner working here, but couldn't figure out how to download the ICNS directly from GitHub with cURL. So...
+Open the terminal and execute:
 
-- Quit Atom
-- Download [atom.icns](https://github.com/zeke/atom-icon/blob/master/atom.icns?raw=true)
-- Overwrite `/Applications/Atom.app/Contents/Resources/atom.icns`
+    curl https://github.com/zeke/atom-icon/raw/master/atom.icns --location > /Applications/Atom.app/Contents/Resources/atom.icns
 
-Atom may cache the old icon, in which case you'll have to restart to see the new one.
-
-Pull requests welcome!
+Mac OS X may cache the old icon, in which case you'll have to restart to see the new one.
 
 ## Build It
 
