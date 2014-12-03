@@ -29,9 +29,15 @@ For more info about atoms (the particle, not the editor), I recommend watching
 
 Open the terminal and execute:
 
-    curl https://github.com/zeke/atom-icon/raw/master/atom.icns --location > /Applications/Atom.app/Contents/Resources/atom.icns
+```sh
+curl https://github.com/zeke/atom-icon/raw/master/atom.icns \
+  --location > /Applications/Atom.app/Contents/Resources/atom.icns
 
-Mac OS X may cache the old icon, in which case you'll have to restart to see the new one.
+# all this junk clears the OS X icon cache:
+sudo find /private/var/folders/ -name com.apple.dock.iconcache -exec rm {} \;
+killall Dock
+touch /Applications/Atom.app
+```
 
 ## Build It
 
