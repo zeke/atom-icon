@@ -15,15 +15,13 @@ For more info about atoms (the particle, not the editor), I recommend watching
 [Introduction to the atom](https://www.khanacademy.org/science/chemistry/introduction-to-the-atom/v/introduction-to-the-atom)
 , a fascinating and newb-friendly video from Khan Academy.
 
-## The Old Ones
-
-![](old-icon/1.png)
-
-![](old-icon/2.png)
-
-## The New One
-
-![](atom.png)
+<p align="center">
+  <img alt="Very old Atom icon" src="https://raw.githubusercontent.com/zeke/atom-icon/master/old-icon/1.png" width="100" height="100"> <img alt="Old Atom icon" src="https://raw.githubusercontent.com/zeke/atom-icon/master/old-icon/2.png" width="100" height="100">
+</p>
+<p align="center">⬇︎</p>
+<p align="center">
+  <img alt="The new fantastic Atom icon" src="https://raw.githubusercontent.com/zeke/atom-icon/master/atom.png" width="252" height="252">
+</p>
 
 ## Use It
 
